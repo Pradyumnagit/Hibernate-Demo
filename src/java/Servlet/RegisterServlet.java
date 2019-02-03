@@ -41,9 +41,6 @@ public class RegisterServlet extends HttpServlet {
         beans.setUmail(umail);
         beans.setUpass(upass);
         out.println(upass+" "+umail+"     "+Acess.save(beans));
-        
-        
-       
     }
 
     
